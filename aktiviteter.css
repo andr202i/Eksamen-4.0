@@ -106,17 +106,24 @@ h1 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   z-index: 1;
-}
-
-.like-button i {
   color: #555;
   font-size: 20px;
 }
+
 
 .like-button:hover {
   background-color: #dddddd;
 }
 
 .like-button.active i {
+  color: #3b5998;
+}
+
+.like-button {
+  cursor: pointer;
+  color: #999;
+}
+
+.liked {
   color: #3b5998;
 }

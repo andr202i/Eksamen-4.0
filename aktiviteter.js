@@ -1,4 +1,3 @@
-
 function toggleLike(button) {
     button.classList.toggle("liked");
     var icon = button.querySelector("i");
